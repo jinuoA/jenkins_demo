@@ -5,7 +5,7 @@ pipeline {
       agent any
       steps {
         echo 'Deploying'
-        sh './deploy_jenkins.sh'
+        sudo sh './deploy_jenkins.sh'
       }
     }
   }
