@@ -5,7 +5,7 @@ pipeline {
       agent any
       steps {
         echo 'Deploying'
-        sh  'chmod u+x ./deploy_jenkins.sh'
+        sh  'chmod u+x deploy_jenkins.sh'
       }
     }
   }
